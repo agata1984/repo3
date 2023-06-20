@@ -1,0 +1,2 @@
+$ git add g.txt
+warning: in the working copy of 'g.txt', LF will be replaced by CRLF the next time Git touches it
