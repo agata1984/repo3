@@ -1,0 +1,86 @@
+-----------------------------------------------------------------
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    g.txt
+        deleted:    h.txt
+
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (main)
+$ git commit -m "usunięto pliki g.txt i h.txt"
+[main 95cd93a] usunięto pliki g.txt i h.txt
+ 2 files changed, 445 deletions(-)
+ delete mode 100644 g.txt
+ delete mode 100644 h.txt
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 234 bytes | 234.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/agata1984/repo3.git
+   762d34d..95cd93a  main -> main
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (main)
+$
+
+-----------------------------------------------------------------
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (główny)
+$ status git
+Na oddziale głównym
+Twoja gałąź jest aktualna z „origin/main”.
+
+Zmiany do zatwierdzenia:
+   (użyj „git restore --staged <file>…”, aby cofnąć)
+         usunięto: g.txt
+         usunięto: h.txt
+
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (główny)
+$ git commit -m "usunięto pliki g.txt i h.txt"
+[main 95cd93a] usunięto pliki g.txt i h.txt
+  2 zmienione pliki, 445 usunięć(-)
+  usuń tryb 100644 g.txt
+  tryb kasowania 100644 h.txt
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (główny)
+$ status git
+Na oddziale głównym
+Twoja gałąź wyprzedza „Origin/main” o 1 zatwierdzenie.
+   (użyj „git Push”, aby opublikować swoje lokalne zatwierdzenia)
+
+nic do zobowiązania, działające drzewo czyste
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (główny)
+$ git push
+Wyliczanie obiektów: 3, gotowe.
+Liczenie obiektów: 100% (3/3), gotowe.
+Kompresja Delta przy użyciu do 4 wątków
+Kompresja obiektów: 100% (2/2), gotowe.
+Pisanie obiektów: 100% (2/2), 234 bajty | 234,00 KiB/s, gotowe.
+Łącznie 2 (delta 1), ponownie wykorzystane 0 (delta 0), opakowanie ponownie wykorzystane 0
+zdalny: Rozwiązywanie delt: 100% (1/1), zakończone 1 obiektem lokalnym.
+Do https://github.com/agata1984/repo3.git
+    762d34d..95cd93a główny -> główny
+
+MK-HOME-EXP@DESKTOP-M5MR47O MINGW64 ~/Documents/GitHub/repo3 (główny)
+$
+
+-----------------------------------------------------------------
