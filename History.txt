@@ -1,0 +1,414 @@
+    3  git branch
+    4  git push
+    5  git branch -m master main
+    6  git fetch origin
+    7  git branch -u origin/main main
+    8  git remote set-head origin -a
+   10  git status
+   11  cat g.txt
+   12  git add g.txt
+   13  git log --oneline3
+   14  git log --oneline
+   15  git commit -m"poprawiono g.txt"
+   16  git log --oneline
+   17  git push
+   18  git branch -m master main
+   19  git fetch origin
+   20  git branch -u origin/main main
+   21  git remote set-head origin -
+   22  vi g.txt
+   23  git pull
+   24  git status
+   25  vi g.txt
+   26  cat g.txt
+   27  git tstaus
+   28  git status
+   29  git add .
+   30  git commit g.txt -m"Undo Update g.txt"
+   31  git push
+   32  git log
+   33  git pull
+   34  git status
+   35  ll
+   36  git remote -v
+   38  dir
+   39  git clone https://github.com/agata1984/repo2.git
+   40  git clone https://github.com/agata1984/repo4.git
+   41  ls -a
+   42  cd repo4
+   43  ls -lah
+   44  cd -
+   45  cd ..
+   46  ll
+   47  cd GitHub
+   48  ll
+   49  cd repo2
+   50  ll
+   51  cd -
+   52  ll
+   54  cd
+   55  ll
+   56  pwd
+   57  cd Documents/GitHub/
+   58  ll
+   59  cdrepo4
+   60  cd repo4
+   61  ll
+   62  cd -
+   63  cd repo2
+   64  ll
+   65  vi repo2.txt
+   66  cat repo2.txt
+   67  ls -lH
+   68  log status
+   69  git log status
+   70  ll
+   71  git status
+   72  git add repo2.txt m"repo2.txt file added"
+   73  git log
+   74  git log -oneline
+   75  git log -oneline
+   76  git log --oneline
+   77  git status
+   78  git add repo2.txt
+   79  git status
+   80  git push
+   81  git remote -v
+   82  git push
+   83  pwd
+   84  git remote add origin https://github.com/agata1984/repo2.git
+   85  git push
+   86  git log
+   87  git log -oneline
+   88  git log --oneline
+   89  ll
+   90  git status
+   91  git commit -m"repo2txt file added"
+   92  git status
+   93  git push
+   94  git remote add origin https://github.com/agata1984/repo2.git
+   95  git branch -M main
+   96  git push -u origin main
+   97  ll
+   98  git status
+   99  git add .
+  100  git status
+  101  git commit -m"all files added"
+  102  git log
+  103  git push
+  104  git branch
+  105  vi k.txt
+  106  vi o.txt
+  107  vi n.txt
+  108  git status
+  109  git add .
+  110  git commit -m"w plikach k.txt i n.txt zmieniono wpis"
+  111  git push
+  112  git remote -v
+  113  git branch wordpress
+  114  git branch
+  115  git branch wordpress
+  116  git checout wordpress
+  117  git checkout wordpress
+  118  git branch
+  119  mkdir wordpress
+  120  cd wordpress
+  121  ll
+  122  touch wp.txt
+  124  mv wp.txt wordpress.txt
+  125  ll
+  126  chmod 744 wordpress.txt
+  127  ll
+  128  chmod wordpress.txt 764
+  129  chmog --help
+  130  chmod --help
+  131  chmod 744 -f wordpress.txt
+  132  ll
+  133  chmod ax wordpress.txt
+  134  chmod +ax wordpress.txt
+  135  chmod ux wordpress.txt
+  136  chmod -ux wordpress.txt
+  137  chmod wordpress.txt 764
+  138  chmod 744 -f wordpress.txt
+  139  ll
+  140  ls -a
+  141  pwd
+  145  git commit -m "wordpress folder added"
+  146  git push
+  147  exit
+  148  pwd
+  149  ll
+  150  cd ..
+  151  ll
+  152  cd wordpress/
+  153  ll
+  154  cd -
+  156  git branch
+  157  pwd
+  158  git push
+  159  git push --set-upstream origin wordpress
+  160  git push
+  161  git log
+  162  git log --oneline
+  163  git log --oneline
+  164  git log
+  165  touch wordpress2.txt
+  166  git add wordpress2.txt
+  167  git status
+  168  git commit wordpress2.txt
+  169  git commit wordpress2.txt -m"dodano woordpress2.txt"
+  170  git status
+  171  git branch
+  172  ll
+  173  mv wordpress2.txt wordpress/
+  174  ll
+  175  cd wordpress/
+  176  ll
+  177  ll
+  178  git push
+  179  git status
+  180  git add .
+  181  git status
+  182  git commit -m"wordpress2.txt file added"
+  183  git push
+  184  git checkout main
+  185  git branch
+  186  pwd
+  187  ll
+  188  git merge wordpress
+  189  ll
+  190  cd ..
+  191  pwd
+  192  ll
+  193  cd wordpress
+  194  ll
+  195  cd -
+  196  ll
+  197  cd ..
+  198  ll
+  199   cd repo2
+  200  ll
+  201  cd wordpress
+  202  ll
+  203  vi wordpress2.txt
+  204  chmod 764 *.txt
+  205  ll
+  206  chmod -rf 764 *.txt
+  207  pwd
+  208  cd ..
+  209  ll
+  210  rm -rf wordpress2.txt
+  211  ll
+  212  git branch facebook
+  213  git checkout facebook
+  214  git branch
+  215  touch facebook.txt
+  216  ll
+  217  mkdir facebook
+  218  ll
+  219  mv facebook.txt facebook
+  220  ll
+  221  cd facebook/
+  222  ll
+  223  git status
+  224  pwd
+  225  cd ..
+  226  git status
+  227  git add .
+  228  git status
+  229  git restore --staged wordpress2.txt
+  230  git status
+  231  git commit -m"folder facebook added"
+  232  git log
+  233  git push
+  234  cd ..
+  235  pwd
+  236  cd repo2
+  237  ll
+  238  cd facebook/
+  239  ll
+  240  cd =
+  241  pwd
+  242  cd  ..
+  243  cd wordpress/
+  244  ll
+  245  pwd
+  246  cd ..
+  247  git push
+  248  git push --set-upstream origin facebook
+  249  pwd
+  250  git lo --oneline
+  251  git log --oneline
+  252  git branch
+  253  git checkout main
+  254  git branch
+  255  netstat -ano
+  256  git branch
+  257  git checkout facebook
+  258  git log --oneline
+  260  ls -l
+  262  ls -l
+  263  ls -la
+  264  ls -lah
+  265  gir checkout -b twitter
+  266  git checkout -b twitter
+  267  git branch
+  268  touch x.txt
+  269  ls -l
+  270  git status
+  271  git restore wordpress2.txt
+  272  git status
+  273  git checkout main
+  274  git status
+  275  git status
+  276  git branch
+  277  git checkout twitter
+  278  ll
+  279  ls -lah
+  280  git branch
+  281  git checkout main
+  282  git push
+  283  git log
+  284  git log --oneline > log20230622102821.txt
+  285  ll
+  286  vi log20230622102821.txt
+  287  git status
+  288  git checkout main
+  289  ll
+  290  touch .gitignore
+  291  vi .gitignore
+  292  git status
+  293  git add .
+  294  git push
+  295  git status
+  296  git commit -M".gitignore added"
+  297  git commit -M".gitignore added"
+  298  git status
+  299  git status
+  300  git log
+  301  git branch
+  302  git status
+  303  git commit -M ".gitignore added"
+  304  git remove -v
+  305  git remote -v
+  306  git push
+  307  git merge facebook
+  308  git push
+  309  git branch
+  310  git push
+  311  git checkout twitter
+  312  git checkout main
+  313  git merge twitter
+  314  git status
+  315  git push
+  316  git branch
+  317  git merge facebook
+  318  git merge wordpress
+  319  git merge twitter
+  320  git branch
+  321  git merge twitter
+  322  git branch twitter
+  323  git checkout twitter
+  324  git merge twitter
+  325  git branch
+  327  git status
+  328  git rm --cached wordpress
+  329  git rm --cached wordpress.txt
+  330  git rm --cached wordpress2.txt
+  331  git status
+  332  git status
+  333  git push
+  334  git push --set-upstream origin twitter
+  335  git branch
+  337  git checkout main in
+  338  git checkout main
+  339  git merge twitter
+  340  git push
+  341  git history
+  342  git status
+  343  git checkout
+  344  git checkout main
+  345  git branch
+  346  git merge twitter
+  347  git merge wordpress
+  348  git merge facebook
+  349  git push
+  350  git remote -v
+  351  git branch
+  352  git branch -a
+  353  git branch -r
+  354  git merge facebook
+  355  git push
+  356  git checkout -b own_branch
+  357  git branch
+  358  touch z.txt
+  359  nano z.txt
+  360  git status
+  361  git add z.txt
+  362  git status
+  363  git commit -m"dodano .g/x/z"
+  364  git status
+  365  git push
+  366  git branch
+  367  git checkout main
+  368  git push
+  369  git log
+  370  git log --oneline
+  371  git branch
+  372  git checkout own_branch
+  373  git add z.txt
+  374  git status
+  375  ll
+  376  git add z.txt
+  377  git status
+  378  git commit z.txt -m"dodano z.txt"
+  379  git push
+  380  git push --set-upstream origin own_branch
+  381  q
+  382  git branch
+  383  git checkout main
+  384  git merge own_branch
+  385  git checkout own_branch
+  386  git checkout own_branch
+  387  mkdir own_branch
+  388  ll
+  389  mv z.txt own_branch/
+  390  ll
+  391  git checkout main
+  392  mv x.txt twitter
+  393  ll
+  394  mkdir twitter
+  395  ll
+  396  rm twitter
+  397  ll
+  398  mkdir twitter
+  399  ll
+  400  git push
+  401  git log --oneline
+  402  git status
+  403  git restore x.txt
+  404  ll
+  405  mv x.txt own_branch
+  406  ll
+  407  cd twitter/
+  408  ll
+  409  git commit . -m "all added"
+  410  git commit own_branch -m"own_branch added"
+  411  ll
+  412  cd own_branch
+  413  cd own_branch
+  414  git commit own_branch -m"own_branch added"
+  415  git status
+  416  git commit -m"x.txt added"
+  417  git status
+  418  ll
+  419  cd ..
+  420  ll
+  421  cd facebook/
+  422  ll
+  423  cd ..
+  424  ll
+  425  cd own_branch/
+  426  ll
+  427  cd ..
+  428  ll
