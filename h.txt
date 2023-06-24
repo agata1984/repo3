@@ -395,7 +395,7 @@
   409  git commit . -m "all added"
   410  git commit own_branch -m"own_branch added"
   411  ll
-  412  cd ow
+  412  cd own_branch
   413  cd own_branch
   414  git commit own_branch -m"own_branch added"
   415  git status
